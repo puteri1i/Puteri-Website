@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 body, html {
@@ -22,7 +22,7 @@ body, html {
 .overlay {
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4); /* optional: adds readability */
+  background-color: rgba(0, 0, 0, 0.4); 
   padding: 20px;
   border-radius: 10px;
 }
