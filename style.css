@@ -9,7 +9,7 @@ html, body {
   height: 80vh;
   overflow: hidden;
   font-family: 'Inter', sans-serif;
-  background-color: #fff;
+  background-color: transparent;
   color: #000;
 }
 
