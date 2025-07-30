@@ -18,13 +18,13 @@ header {
 }
 .logo {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 nav a {
   margin-left: 20px;
   text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-size: 20px;
 }
 .hero {
   display: flex;
@@ -59,7 +59,7 @@ nav a {
   border-top: 1px solid #000;
 }
 .our-work {
-  font-size: 16px;
+  font-size: 20px;
 }
 .preview-button {
   position: fixed;
