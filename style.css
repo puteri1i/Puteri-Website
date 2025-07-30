@@ -124,7 +124,7 @@ nav a {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-weight: regular;
+  font-weight: semibold;
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
 }
