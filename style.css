@@ -16,7 +16,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px;
   font-size: 22px;
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 nav a {
-  margin-left: 40px;
+  margin-left: 30px;
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -45,7 +45,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding-top: 60px;
+  padding-top: 30px;
   flex-wrap: wrap;
 }
 
