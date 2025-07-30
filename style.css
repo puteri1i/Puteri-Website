@@ -1,50 +1,79 @@
-/* Reset + minimal base styling */
-* {
+{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
-html, body {
-  height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, sans-serif;
-  color: white;
-  background: black;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
 }
-
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
 .hero {
-  background: url('images/bglogo.webp') no-repeat center center/cover;
-  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
+  justify-content: space-between;
+  margin-top: 60px;
+  flex-wrap: wrap;
 }
-
-.hero::after {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.4); /* subtle dark overlay */
-  z-index: 1;
+.hero-graphics {
+  display: flex;
+  gap: 20px;
 }
-
-.content {
-  z-index: 2;
-  padding: 2rem;
+.hero-graphics div {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
 }
-
-.title {
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  letter-spacing: -0.5px;
+.hero-text {
+  max-width: 600px;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 30px;
 }
-
-.subtitle {
-  font-size: 1.5rem;
-  font-weight: 300;
-  opacity: 0.85;
+.arrow {
+  font-size: 40px;
+  align-self: flex-start;
+  margin-top: -30px;
 }
-
+.divider {
+  margin: 60px 0 20px;
+  border-top: 1px solid #000;
+}
+.our-work {
+  font-size: 16px;
+}
+.preview-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.preview-button span {
+  margin-left: 8px;
+}
