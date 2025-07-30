@@ -91,14 +91,15 @@ nav a {
   white-space: nowrap;
   background: black;
   color: #ffffff;
-  font-size: 28px;
-  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-family: 'Fredoka', sans-serif;
   padding: 16px 0;
   width: 100vw;
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 1000;
+  letter-spacing: 0.05rem;
 }
 
 .marquee__inner {
@@ -119,4 +120,12 @@ nav a {
   }
 }
 
+.middle-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 1rem;
+}
 
