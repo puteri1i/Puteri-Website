@@ -69,6 +69,14 @@ nav a {
   margin-top: 40px;
 }
 
+.hero2-text {
+  max-width: 800px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 40px;
+}
+
 .arrow {
   font-size: 64px;
   align-self: flex-start;
