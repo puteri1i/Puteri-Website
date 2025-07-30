@@ -1,4 +1,4 @@
-* {
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -28,9 +28,8 @@ header {
   font-size: 24px;
 }
 
-.logo {
-  font-weight: bold;
-  font-size: 32px;
+.logo img {
+  height: 40px;
 }
 
 nav a {
@@ -82,4 +81,13 @@ nav a {
 
 .my-work {
   font-size: 28px;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.behance-logo {
+  width: 32px;
+  height: 32px;
 }
