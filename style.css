@@ -92,7 +92,7 @@ nav a {
   background: black;
   color: #ffffff;
   font-size: 1.2rem;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Bitcount Prop Double';
   padding: 16px 0;
   width: 100vw;
   position: fixed;
@@ -108,7 +108,7 @@ nav a {
 }
 
 .marquee__inner span {
-  padding-right: 4rem; /* spacing between text blocks */
+  padding-right: 1rem;
 }
 
 @keyframes scroll-loop {
